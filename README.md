@@ -18,3 +18,4 @@ This is WordPress framework where Underscores &amp; Bootstrap framework are comb
 * create and add footer links menu in footer right
 * create and display 3 footer widgets and 1 left sidebar widget
 * create custom page templates
+* update bootstrap and font-awesome added
