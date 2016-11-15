@@ -135,7 +135,7 @@ function bootscore_wp_scripts() {
 	wp_enqueue_style( 'bootscore_wp-style', get_stylesheet_uri() );
 
 	
-	wp_enqueue_script( 'bootscore_wp-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.3.5', true );
+	wp_enqueue_script( 'bootscore_wp-bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '4.0.0', true );
 
 	wp_enqueue_script( 'bootscore_wp-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
