@@ -21,3 +21,80 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
 
+
+
+
+
+
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+  word-wrap: break-word; }
+
+.bypostauthor {
+  display: block; }
+
+.comments-area {
+  box-shadow: 0 0 1px 1px #cecece;
+  margin: 50px 0 20px;
+  padding: 10px; }
+
+.comment-form {
+  margin-top: 15px; }
+
+.comment-respond {
+  border: 1px solid #f7f7f7;
+  padding: 20px; }
+
+.comment-notes {
+  margin-bottom: 15px; }
+
+.comment-form label {
+  font-size: 1.2em;
+  width: 80px;
+  margin-left: 20px; }
+
+.comment-form input {
+  width: 50%;
+  border: 1px solid #E3E3E3;
+  padding: 10px; }
+
+.comment-form .comment-form-comment {
+  margin-top: 20px; }
+
+.comment-form textarea {
+  width: 80%;
+  border: 1px solid #E3E3E3;
+  padding: 10px; }
+
+.comment-form textarea,
+.comment-form input {
+  margin-left: 20px; }
+
+.form-allowed-tags {
+  display: none;
+  opacity: 0; }
+
+.comment-form .form-submit > input {
+  font-size: 14px;
+  padding: 10px;
+  width: 140px;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.comment-form .form-submit > input:hover {
+  color: #FFFFFF;
+  background: #666;
+  box-shadow: none; }
+
+.comment.even {
+  background-color: #F5F5F5;
+  padding: 5px 10px;
+  margin: 5px 0px; }
+
+.comment.odd {
+  background-color: #E3E3E3;
+  padding: 5px 10px;
+  margin: 5px 0px; }
