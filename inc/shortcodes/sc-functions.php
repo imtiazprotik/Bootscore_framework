@@ -4,7 +4,7 @@
 /**
 * Load Shortcode my short codes
 **/
-require get_template_directory() . '/inc/shortcodes/sc-myshortcodes.php';
+require get_template_directory() . '/inc/shortcodes/sc-themeshortcodes.php';
 
 
 

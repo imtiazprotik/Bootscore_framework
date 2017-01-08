@@ -2,7 +2,7 @@
 /**
  * Initialize the custom Theme Options.
  */
-add_action( 'init', 'colour_theme_options' );
+add_action( 'init', 'bootscore_theme_options' );
 
 /**
  * Build the custom settings & update OptionTree.
@@ -10,7 +10,7 @@ add_action( 'init', 'colour_theme_options' );
  * @return    void
  * @since     2.0
  */
-function colour_theme_options() {
+function bootscore_theme_options() {
 
   /* OptionTree is not loaded yet, or this is not an admin request */
   if ( ! function_exists( 'ot_settings_id' ) || ! is_admin() )
@@ -33,7 +33,7 @@ function colour_theme_options() {
 
       array(
         'id'          => 'header_logo',
-        'title'       => __( 'Header logo', 'colour' )
+        'title'       => __( 'Header logo', 'bootscore' )
       ),
 
       
@@ -49,8 +49,8 @@ function colour_theme_options() {
       
       array(
         'id'          => 'site_logo',
-        'label'       => __( 'Upload logo', 'colour' ),
-        'desc'        => sprintf( __( 'The Upload logo for in header', 'colour' ), '<code>ot-upload-attachment-id</code>' ),
+        'label'       => __( 'Upload logo', 'bootscore' ),
+        'desc'        => sprintf( __( 'The Upload logo for in header', 'bootscore' ), '<code>ot-upload-attachment-id</code>' ),
         'std'         => '',
         'type'        => 'upload',
         'section'     => 'header_logo',
