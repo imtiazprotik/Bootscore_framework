@@ -18,7 +18,8 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-
+<div class="container"> 
+	<div class="row">
 <div id="comments" class="comments-area col-md-10">
 
 	<?php
@@ -82,3 +83,5 @@ if ( post_password_required() ) {
 	?>
 
 </div><!-- #comments -->
+	</div><!-- #row -->
+</div><!-- #container -->

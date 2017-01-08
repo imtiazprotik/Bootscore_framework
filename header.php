@@ -69,6 +69,6 @@
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content container">
-	<div class="row"></div>
+	<div id="content" class="site-content">
+	
 
